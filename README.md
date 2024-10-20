@@ -14,7 +14,7 @@ Optamos por utilizar o protocolo MQTT com o broker Mosquitto devido às seguinte
 - **Simplicidade**: A simplicidade do protocolo MQTT facilita a implementação e manutenção da aplicação.
 - **Suporte a QoS**: MQTT suporta diferentes níveis de Qualidade de Serviço (QoS), garantindo a entrega das mensagens conforme a necessidade da aplicação.
 
-### Explicação de Como os Conceitos de Redes de Computadores Foram Aplicados
+### Explicação de como os Conceitos de Redes de Computadores Foram Aplicados
 
 - **Protocolo de Mensageria**: Utilizamos o protocolo MQTT, que é um protocolo de mensageria leve e eficiente, adequado para comunicação em redes de computadores.
 - **Broker**: O Mosquitto atua como um intermediário (broker) que gerencia a distribuição das mensagens entre os publicadores e assinantes.
