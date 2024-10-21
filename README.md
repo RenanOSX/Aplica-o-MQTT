@@ -1,3 +1,12 @@
+# Sistema de Mensagens em Tempo Real com MQTT e Mosquitto
+
+## Sumário
+- [Descrição da Aplicação Desenvolvida](#descrição-da-aplicação-desenvolvida)
+- [Justificativa da Escolha do Protocolo](#justificativa-da-escolha-do-protocolo)
+- [Diagrama de Arquitetura de Aplicação](#diagrama-de-arquitetura-de-aplicação)
+- [Explicação de como os Conceitos de Redes de Computadores Foram Aplicados](#explicação-de-como-os-conceitos-de-redes-de-computadores-foram-aplicados)
+- [Instruções para a Execução da Aplicação](#instruções-para-a-execução-da-aplicação)
+
 ### Descrição da Aplicação Desenvolvida
 
 A aplicação desenvolvida é um sistema de mensagens em tempo real que permite a comunicação entre múltiplos serviços e um servidor central. Utilizamos o protocolo MQTT com o broker Mosquitto para gerenciar a troca de mensagens. A aplicação é composta por dois componentes principais: um publicador (publisher.js) e um assinante (subscriber.js).
@@ -14,6 +23,9 @@ Optamos por utilizar o protocolo MQTT com o broker Mosquitto devido às seguinte
 - **Simplicidade**: A simplicidade do protocolo MQTT facilita a implementação e manutenção da aplicação.
 - **Suporte a QoS**: MQTT suporta diferentes níveis de Qualidade de Serviço (QoS), garantindo a entrega das mensagens conforme a necessidade da aplicação.
 
+### Diagrama de Arquitetura de Aplicação
+![Diagrama Mosquitto](diagrama_mosquitto.svg)
+
 ### Explicação de como os Conceitos de Redes de Computadores Foram Aplicados
 
 - **Protocolo de Mensageria**: Utilizamos o protocolo MQTT, que é um protocolo de mensageria leve e eficiente, adequado para comunicação em redes de computadores.
@@ -24,8 +36,8 @@ Optamos por utilizar o protocolo MQTT com o broker Mosquitto devido às seguinte
 ### Instruções para a Execução da Aplicação
 
 1. **Instalação das Dependências**:
-   - Certifique-se de ter o Node.js instalado.
-   - Navegue até o diretório do projeto e instale as dependências necessárias:
+   - Verifique se você tem o Node.js instalado.
+   - Vá até o diretório do projeto e instale as dependências necessárias:
      ```sh
      npm install mqtt readline uuid
      ```
