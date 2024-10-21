@@ -26,7 +26,7 @@ Optamos por utilizar o protocolo MQTT com o broker Mosquitto devido às seguinte
 ### Diagrama de Arquitetura de Aplicação
 ![Diagrama Mosquitto](diagrama_mosquitto.svg)
 
-### Explicação de como os Conceitos de Redes de Computadores Foram Aplicados
+### Explicação de como os Conceitos de Redes de Computadores foram Aplicados
 
 - **Protocolo de Mensageria**: Utilizamos o protocolo MQTT, que é um protocolo de mensageria leve e eficiente, adequado para comunicação em redes de computadores.
 - **Broker**: O Mosquitto atua como um intermediário (broker) que gerencia a distribuição das mensagens entre os publicadores e assinantes.
